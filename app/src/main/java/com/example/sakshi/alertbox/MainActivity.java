@@ -51,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
 
                 //alert box
 
+
                 AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
 
                 builder.setTitle("Submit Conformation");
@@ -58,15 +59,15 @@ public class MainActivity extends AppCompatActivity {
                 builder.setPositiveButton("yes", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
-
+                        Toast.makeText(MainActivity.this, "yes,confermed", Toast.LENGTH_SHORT).show();
                     }
-                }).setNegativeButton("no", new DialogInterface.OnClickListener() {
+                });
+                builder.setNegativeButton("no", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         finish();
                     }
                 });
-
 
             }
         });

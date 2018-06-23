@@ -12,4 +12,6 @@
     <string name="enter_string_e_mail">enter @string/e_mail</string>
     <string name="enter_mail">enter mail</string>
     <string name="toast">yes!E-mail is confermed</string>
+    <string name="save">SAVE</string>
+    <string name="submit">SUBMIT</string>
 </resources>
